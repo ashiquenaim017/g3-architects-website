@@ -334,7 +334,7 @@ footer p {
   .quick-list-container,
   .team-members-img,
   .features-container,
-  .some-facts-container {
+  .some-facts-container,footer {
     margin-left: 5px;
     margin-right: 5px;
   }
@@ -381,8 +381,13 @@ footer p {
     margin-left: -25px;
   }
   .sponsor-container p {
-    margin-left: 0px;
+    margin-left: 30px;
     margin-right: 0px;
     width: 180px;
+  }
+  .sponsor-container p{
+    width: 100%;
+    margin-left: 0;
+    text-align: left;
   }
 }
