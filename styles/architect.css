@@ -403,6 +403,7 @@ footer p {
   }
   footer p{
     margin-left: 30px;
+    text-align-last: center;
 
   }
 }
