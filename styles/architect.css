@@ -302,6 +302,9 @@ footer p {
   color: #424242;
   font-size: 1.25rem;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* media queries */
@@ -362,8 +365,16 @@ footer p {
     padding: 10px;
   }
   .year {
-    left: 5px;
+    
+    left: 20px;
     right: 5px;
+  }
+  .year-title{
+    bottom: -20px;
+    left: 3px;
+  }
+  .year-desc{
+    bottom: -1px;
   }
   .some-facts-content {
     display: flex;
@@ -389,5 +400,9 @@ footer p {
     width: 100%;
     margin-left: 0;
     text-align: left;
+  }
+  footer p{
+    margin-left: 30px;
+
   }
 }
